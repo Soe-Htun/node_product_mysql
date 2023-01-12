@@ -1,4 +1,8 @@
+// import { addProducts } from "../model/productModel"
 
+// export const createProduct = (req, res) => {
+//     addProducts
+// }
 export const showProducts = (req, res) => {
     getProducts((err, results) => {
         if(err) {
